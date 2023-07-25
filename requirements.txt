@@ -1,7 +1,7 @@
 pandas == 2.0.3
 numpy == 1.23.5
 flask == 2.3.2
-rasa == 3.6.3
+rasa
 os
 datetime
 openpyxl
