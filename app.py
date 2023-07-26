@@ -3,6 +3,9 @@ import pandas as pd
 import subprocess
 import threading
 
+cmnd = 'python -m spacy download en_core_web_md'
+subprocess.run(cmnd, shell= True)
+
 app = Flask(__name__)
 
 def rasa_server ():
