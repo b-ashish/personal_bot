@@ -1,2 +1,6 @@
 pandas == 2.0.3
 flask == 2.3.2
+openpyxl
+rasa
+spacy
+
