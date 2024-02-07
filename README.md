@@ -1,4 +1,3 @@
-# personal_bot
 # Structured Data Track using Rasa Chatbot
 
 ## Overview
