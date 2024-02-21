@@ -48,15 +48,32 @@ Explore possibilities for integrating the chatbot with external tools and platfo
 
 To get started with the Structured Data Track using Rasa Chatbot, follow these steps:
 
-1. run requiirement.txt
-2. After installing specific libraries you can also create your own enviourment
-3. Currently Chatbot is modified only for given structured data but in modify according to need
-4. If structured data is changed then we need to re-train our model
-5. In python run interface.py to use bot.
+### 1. Installing dependencies:
+   ```bash
+   pip install -r requirement.txt
+   ```
+### 2. After installing libraries you can also create your own enviourment
+ ```bash
+   python -m venv bot_env
+   bot_env\Scripts\activate
+```
+### 3. Clone git repo to your system
+ ```bash
+ git clone https://github.com/b-ashish/personal_bot.git
+```
+### 4. Now run the app:
+```bash
+cd personal_bot
+python app.py
+```
+- Currently Chatbot is modified only for given structured data but in modify according to need
+- You need to refer user_info/Paymen_details.xlsx to chat with bot if we if structured data is changed then we need to re-train our model
 
 ## Usage
 
-Currently use our example dataset only so refer given dataset for information you want to retrive using bot
+- Tracking work if data is realted to time related
+- Extact any information from data just by chating with bot
+- Modify your data if admin privilege granted no need to use any software 
 
 
 
