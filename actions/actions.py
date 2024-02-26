@@ -14,17 +14,12 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, FollowupAction
+from config import data_paths
 import pandas as pd
 import os
 import datetime
 
-
-
-dir = os.getcwd()
-par_dir = os.path.dirname(dir)
-path = os.path.join(dir,par_dir,'home_bot','user_info','Payment_details.xlsx')
-print(path)
-
+path = data_paths
 df = pd.read_excel(path)
 
 
