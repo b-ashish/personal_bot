@@ -48,7 +48,7 @@ Explore possibilities for integrating the chatbot with external tools and platfo
 
 To get started with the Structured Data Track using Rasa Chatbot, follow these steps:
 
-### 1. After installing libraries you can also create your own enviourment
+### 1.Creating new env:
  ```bash
    python -m venv bot_env
    bot_env\Scripts\activate
