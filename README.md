@@ -48,15 +48,15 @@ Explore possibilities for integrating the chatbot with external tools and platfo
 
 To get started with the Structured Data Track using Rasa Chatbot, follow these steps:
 
-### 1. Installing dependencies:
-   ```bash
-   pip install -r requirement.txt
-   ```
-### 2. After installing libraries you can also create your own enviourment
+### 1. After installing libraries you can also create your own enviourment
  ```bash
    python -m venv bot_env
    bot_env\Scripts\activate
 ```
+### 2. Installing dependencies:
+   ```bash
+   pip install -r requirement.txt
+   ```
 ### 3. Clone git repo to your system
  ```bash
  git clone https://github.com/b-ashish/personal_bot.git
